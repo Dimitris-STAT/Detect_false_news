@@ -11,9 +11,6 @@ This project implements a model for detecting unreliable or false news articles.
   - [Logistic Regression](#logistic-regression)
   - [Support Vector Machines](#support-vector-machines)
 - [Methodology](#methodology)
-- [Results](#results)
-- [How to Run](#how-to-run)
-- [References](#references)
 
 ## Data
 The dataset for this project is sourced from [Kaggle](https://www.kaggle.com), consisting of articles labeled as either **true** or **false**. Each article includes:
@@ -48,11 +45,3 @@ The following steps were followed to build and evaluate the models:
 3. **Model Training and Testing**: Both Logistic Regression and SVM models were implemented. Tests were conducted on both training and test sets to detect overfitting issues.
 4. **Time Evaluation**: The `time` library was used to measure the duration of model training and the time required to make predictions on new text.
 5. **Web Interface**: A simple web application was created using the Flask library, allowing users to input news text via a webpage. The text is preprocessed and passed through the trained model to assess its authenticity.
-
-## Results
-The results of the experimental analysis, including the accuracy of both Logistic Regression and SVM on the test dataset, will be discussed here.
-
-## How to Run
-To run this project locally, follow these steps:
-
-1
